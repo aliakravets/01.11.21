@@ -95,3 +95,21 @@ nav{
         }
     }
 }
+.home-page-footer{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-left: 20px;
+    margin-top: 110px;
+
+    .footer-places{
+        display: grid;
+        grid-template-columns: repeat(3, 200px);
+        column-gap: 50px;
+        justify-content: center;
+        padding-right: -80px;
+    }
+
+    .arrow{
+        align-self: end;
+    }
+}
