@@ -85,7 +85,6 @@ nav .menu li a:hover {
 .home-page-main .socials {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (50px)[3];
       grid-template-rows: repeat(3, 50px);
   row-gap: 20px;
   justify-items: center;
@@ -120,7 +119,6 @@ nav .menu li a:hover {
 .home-page-footer .footer-places {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (200px)[3];
       grid-template-columns: repeat(3, 200px);
   -webkit-column-gap: 50px;
           column-gap: 50px;
