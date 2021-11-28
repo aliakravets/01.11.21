@@ -107,6 +107,26 @@ nav{
         column-gap: 50px;
         justify-content: center;
         padding-right: -80px;
+
+        .footer-place-item{
+            background-color: $opacity-color;
+            display: grid;
+            grid-template-columns:auto 1fr;
+            border-radius: 10px;
+
+            .plane-desc{
+                display: grid;
+                grid-template-rows:1fr 1fr;
+
+                .plane-link{
+                    line-height:10px;
+                }
+            }
+
+            img{
+                padding: 10px;
+            }
+        }
     }
 
     .arrow{

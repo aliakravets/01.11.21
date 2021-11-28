@@ -85,6 +85,7 @@ nav .menu li a:hover {
 .home-page-main .socials {
   display: -ms-grid;
   display: grid;
+  -ms-grid-rows: (50px)[3];
       grid-template-rows: repeat(3, 50px);
   row-gap: 20px;
   justify-items: center;
@@ -119,6 +120,7 @@ nav .menu li a:hover {
 .home-page-footer .footer-places {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (200px)[3];
       grid-template-columns: repeat(3, 200px);
   -webkit-column-gap: 50px;
           column-gap: 50px;
@@ -126,6 +128,30 @@ nav .menu li a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   padding-right: -80px;
+}
+
+.home-page-footer .footer-places .footer-place-item {
+  background-color: rgba(100, 100, 100, 0.5);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  border-radius: 10px;
+}
+
+.home-page-footer .footer-places .footer-place-item .plane-desc {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.home-page-footer .footer-places .footer-place-item .plane-desc .plane-link {
+  line-height: 10px;
+}
+
+.home-page-footer .footer-places .footer-place-item img {
+  padding: 10px;
 }
 
 .home-page-footer .arrow {
